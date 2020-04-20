@@ -1,0 +1,9 @@
+name: "AWS S3 sync with webpack using private npm packages"
+description: "Builds with webpack and private packages either private npm or GitHub packages in a private org"
+author: brockmdavis
+runs:
+  using: docker
+  image: Dockerfile
+branding:
+  icon: refresh-cw
+  color: green
